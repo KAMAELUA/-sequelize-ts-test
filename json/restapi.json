@@ -2,14 +2,7 @@
   "server": {
     "protocol": "http",
     "host": "0.0.0.0",
-    "port": 8081,
-    "key_file": "data/localhost.key",
-    "cert_file": "data/localhost.crt",
-    "logs": {
-      "max_files": "14d",
-      "date_pattern": "YYYY-MM-DD",
-      "dirname": "logs"
-    }
+    "port": 8081
   },
   "database": {
     "database": "new_registry_db",
