@@ -1,0 +1,22 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "0.0.0.0",
+    "port": 8081,
+    "key_file": "data/localhost.key",
+    "cert_file": "data/localhost.crt",
+    "logs": {
+      "max_files": "14d",
+      "date_pattern": "YYYY-MM-DD",
+      "dirname": "logs"
+    }
+  },
+  "database": {
+    "database": "new_registry_db",
+    "host": "192.168.0.2",
+    "user": "new_registry_db",
+    "pass": "new_registry_db",
+    "dialect": "mssql",
+    "schema": "argo"
+  }
+}
